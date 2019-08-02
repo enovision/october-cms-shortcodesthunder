@@ -1,0 +1,103 @@
+@import 'variables';
+
+.sc-notice {
+  margin: 30px 0;
+  position: relative;
+}
+
+.sc-notice > div {
+  padding: 5px 20px;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $default-color;
+}
+
+.sc-notice > div:before {
+  position: absolute;
+  top: $notice-border-top-padding;
+  color: #fff;
+  font-family: FontAwesome;
+  content: '\f06a';
+  left: 10px;
+}
+
+.sc-notice > div:first-child:after {
+  position: absolute;
+  top: $notice-border-top-padding;
+  color: #fff;
+  left: 30px;
+}
+
+.sc-notice .notice-title {
+  position: absolute;
+  top: $notice-border-top-padding;
+  left: 30px;
+  color: #fff;
+}
+
+/**
+ * default
+ */
+
+.sc-notice.default > div:first-child {
+  background: $default-bg;
+  color: $default-color;
+  border: 1px solid $default-border;
+  border-top: $notice-border-top solid $default-border;
+}
+
+/**
+ * primary
+ */
+
+.sc-notice.primary > div:first-child {
+  border-top: $notice-border-top solid $primary-border;
+  background: $primary-bg;
+  padding-top: $notice-padding-top;
+  padding-bottom: $notice-padding-bottom;
+}
+
+/**
+ * success
+ */
+
+.sc-notice.success > div:first-child {
+  border-top: $notice-border-top solid $success-border;
+  background: $success-bg;
+  padding-top: $notice-padding-top;
+  padding-bottom: $notice-padding-bottom;
+}
+
+/**
+ * warning
+ */
+
+.sc-notice.warning > div:first-child {
+  border-top: $notice-border-top solid $warning-border;
+  background: $warning-bg;
+  padding-top: $notice-padding-top;
+  padding-bottom: $notice-padding-bottom;
+}
+
+/**
+ * danger
+ */
+
+.sc-notice.danger > div:first-child {
+  border-top: $notice-border-top solid $danger-border;
+  background: $danger-bg;
+  padding-top: $notice-padding-top;
+  padding-bottom: $notice-padding-bottom;
+}
+
+/**
+ * info
+ */
+
+.sc-notice.info > div:first-child {
+  border-top: $notice-border-top solid $info-border;
+  background: $info-bg;
+  padding-top: $notice-padding-top;
+  padding-bottom: $notice-padding-bottom;
+}

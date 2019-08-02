@@ -1,0 +1,15 @@
+/**
+ * Default alert not in bootstrap
+ */
+.alert-default {
+  color: #5b5b5b;
+  background-color: #fafafa;
+  border-color: #bababa !important; }
+
+.alert-default hr {
+  border-top-color: #bababa !important; }
+
+.alert-default .alert-link {
+  color: #bababa !important; }
+
+/*# sourceMappingURL=alert.css.map */

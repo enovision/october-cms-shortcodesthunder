@@ -1,0 +1,6 @@
+plugin:
+    name: 'enovision.shortcodesthunder::lang.plugin.name'
+    description: 'enovision.shortcodesthunder::lang.plugin.description'
+    author: Enovision
+    icon: oc-icon-code
+    homepage: ''

@@ -1,0 +1,56 @@
+$notice-border-top: 40px;
+$notice-padding-top: 20px;
+$notice-padding-bottom: 20px;
+$notice-border-top-padding: 6px;
+
+$yellow-border: #f0ad4e;
+$yellow-background: #f5f1eb;
+$yellow-color: #df8a13;
+
+$red-border: #d9534f;
+$red-background: #ffefef;
+$red-color: #b52b27;
+
+$blue-border: #007bff;
+$blue-background: #e8ecee;
+$blue-color: #28a1c5;
+
+$cyan-border: #5bc0de;
+$cyan-background: #e9f5f5;
+$cyan-color: #17a2b8;
+
+$green-border: #5cb85c;
+$green-background: #e7efe7;
+$green-color: #3d8b3d;
+
+$default-border: #bababa;
+$default-background: #fafafa;
+$default-color: #5b5b5b;
+
+$default-color: $default-color;
+$primary-color: $blue-color;
+$success-color: $green-color;
+$danger-color: $red-color;
+$info-color: $cyan-color;
+$warning-color: $yellow-color;
+
+$default-border: $default-border;
+$primary-border: $blue-border;
+$success-border: $green-border;
+$danger-border: $red-border;
+$info-border: $cyan-border;
+$warning-border: $yellow-border;
+
+$default-bg: $default-background;
+$primary-bg: $blue-background;
+$success-bg: $green-background;
+$danger-bg: $red-background;
+$info-bg: $cyan-background;
+$warning-bg: $yellow-background;
+
+$default-link: $default-border;
+$primary-link: $primary-border;
+$success-link: $success-border;
+$danger-link: $danger-border;
+$info-link: $info-border;
+$warning-link: $warning-border;

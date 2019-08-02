@@ -1,0 +1,147 @@
+@import 'variables';
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-heading {
+  color: inherit;
+}
+
+.alert-link {
+  font-weight: 700;
+}
+
+.alert-dismissible {
+  padding-right: 4.15rem;
+}
+
+.alert-dismissible .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.75rem 1.25rem;
+  color: inherit;
+}
+
+.alert-default {
+  color: $default-color;
+  background-color: $default-background;
+  border-color: $default-border;
+}
+
+.alert-default hr {
+  border-top-color: $default-border;
+}
+
+.alert-default .alert-link {
+  color: $default-link;
+}
+
+.alert-primary {
+  color: $primary-color;
+  background-color: $primary-bg;
+  border-color: $primary-border;
+}
+
+.alert-primary hr {
+  border-top-color: $primary-border;
+}
+
+.alert-primary .alert-link {
+  color: $primary-link;
+}
+
+.alert-secondary {
+  color: #696f74;
+  background-color: #f4f7f9;
+  border-color: #f0f4f6;
+}
+
+.alert-secondary hr {
+  border-top-color: #e0e7ed;
+}
+
+.alert-secondary .alert-link {
+  color: #505659;
+}
+
+.alert-success {
+  color: $success-color;
+  background-color: $success-bg;
+  border-color: $success-border;
+}
+
+.alert-success hr {
+  border-top-color: $success-border;
+}
+
+.alert-success .alert-link {
+  color: $success-link;
+}
+
+.alert-info {
+  color: $info-color;
+  background-color: $info-bg;
+  border-color: $info-border;
+}
+
+.alert-info hr {
+  border-top-color: $info-border;
+}
+
+.alert-info .alert-link {
+  color: $info-link;
+}
+
+.alert-warning {
+  color: $warning-color;
+  background-color: $warning-bg;
+  border-color: $warning-border;
+}
+
+.alert-warning hr {
+  border-top-color: $warning-border;
+}
+
+.alert-warning .alert-link {
+  color: $warning-link;
+}
+
+.alert-danger {
+  color: $danger-color;
+  background-color: $danger-bg;
+  border-color: $danger-border;
+}
+
+.alert-danger hr {
+  border-top-color: $danger-border;
+}
+
+.alert-danger .alert-link {
+  color: $danger-link;
+}
+
+
+
+.alert:before {
+  content: '\f071';
+  font-family: "FontAwesome";
+  position: absolute;
+  left: -27px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.alert .close {
+  position: absolute;
+  right: 8px;
+  cursor: pointer;
+  top: 10px;
+  color: #999;
+}

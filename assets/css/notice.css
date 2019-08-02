@@ -1,0 +1,86 @@
+.sc-notice {
+  margin: 30px 0;
+  position: relative; }
+
+.sc-notice > div {
+  padding: 5px 20px;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #5b5b5b; }
+
+.sc-notice > div:before {
+  position: absolute;
+  top: 6px;
+  color: #fff;
+  font-family: FontAwesome;
+  content: '\f06a';
+  left: 10px; }
+
+.sc-notice > div:first-child:after {
+  position: absolute;
+  top: 6px;
+  color: #fff;
+  left: 30px; }
+
+.sc-notice .notice-title {
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  color: #fff; }
+
+/**
+ * default
+ */
+.sc-notice.default > div:first-child {
+  background: #fafafa;
+  color: #5b5b5b;
+  border: 1px solid #bababa;
+  border-top: 40px solid #bababa; }
+
+/**
+ * primary
+ */
+.sc-notice.primary > div:first-child {
+  border-top: 40px solid #007bff;
+  background: #e8ecee;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/**
+ * success
+ */
+.sc-notice.success > div:first-child {
+  border-top: 40px solid #5cb85c;
+  background: #e7efe7;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/**
+ * warning
+ */
+.sc-notice.warning > div:first-child {
+  border-top: 40px solid #f0ad4e;
+  background: #f5f1eb;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/**
+ * danger
+ */
+.sc-notice.danger > div:first-child {
+  border-top: 40px solid #d9534f;
+  background: #ffefef;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/**
+ * info
+ */
+.sc-notice.info > div:first-child {
+  border-top: 40px solid #5bc0de;
+  background: #e9f5f5;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*# sourceMappingURL=notice.css.map */

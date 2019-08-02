@@ -1,0 +1,17 @@
+@import 'variables';
+/**
+ * Default alert not in bootstrap
+ */
+.alert-default {
+  color: $default-color;
+  background-color: $default-background;
+  border-color: $default-border !important;
+}
+
+.alert-default hr {
+  border-top-color: $default-border !important;
+}
+
+.alert-default .alert-link {
+  color: $default-link !important;
+}

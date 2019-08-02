@@ -1,0 +1,37 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    fontawesome_4_link:
+        label: Fontawesome 4 link
+        type: text
+        span: auto
+    fontawesome_5_link:
+        label: Fontawesome 5 link
+        type: text
+        span: auto
+    load_fontawesome:
+        label: Load Fontawesome
+        disabled: false
+        type: switch
+        default: true
+        span: auto
+        comment: Load Fontawesome assets
+    fontawesome_version:
+        label: Fontawesome version
+        disabled: false
+        default: 5
+        type: dropdown
+        options:
+            4: Version 4
+            5: Version 5
+        span: auto
+        comment: Fontawesome Version to load
+    load_plugin_css:
+        label: Load standard CSS of this plugin
+        disabled: false
+        type: switch
+        default: true
+        span: auto
+        comment: When set to true then the CSS in this plugin will be loaded, otherwise you have to manage it yourself

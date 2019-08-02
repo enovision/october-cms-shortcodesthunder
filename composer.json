@@ -1,0 +1,20 @@
+{
+  "name": "enovision/shortcode-thunder-plugin",
+  "type": "october-plugin",
+  "description": "Blog shortcodes based on Thunderer shortcodes",
+  "homepage": "https://enovision.nl/plugin/shortcode-thunder-plugin",
+  "keywords": ["october", "octobercms", "shortcode", "thunderer"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johan van de Merwe",
+      "email": "mail@johanvandemerwe.nl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "thunderer/shortcode": "v0.7.2"
+  },
+  "minimum-stability": "dev"
+}
