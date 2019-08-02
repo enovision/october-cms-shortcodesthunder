@@ -37,6 +37,10 @@ Clone this repository to the `plugins\enovision` folder and name it `shortcodest
 
 ```
 git clone https://github.com/enovision/october-cms-shortcodesthunder shortcodesthunder
+
+cd shortcodesthunder
+
+composer install
 ```
 
 from within the plugins/enovision folder.
