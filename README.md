@@ -14,11 +14,11 @@ It marks your keywords:
 
 Bootstrap alerts:
 
-![Mark my text](../master/screenshots/sh_00513.png)
+![Bootstrap alerts](../master/screenshots/sh_00513.png)
 
 Bootstrap tables
 
-![Mark my text](../master/screenshots/sh_00514.png)
+![Bootstrap tables](../master/screenshots/sh_00514.png)
 
 And much more...
 
