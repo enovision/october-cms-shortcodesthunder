@@ -6,7 +6,7 @@ It colors your markdown code:
 
 It creates nice notices:
 
-![Color](../master/screenshots/sh_00511.png)
+![Notice](../master/screenshots/sh_00511.png)
 
 It marks your keywords:
 
