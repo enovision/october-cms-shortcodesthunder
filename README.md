@@ -1,4 +1,4 @@
-# Shortcode Thuner #
+# Shortcode Thunder #
 
 It colors your markdown code:
 
