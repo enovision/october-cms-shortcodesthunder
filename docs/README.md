@@ -2,23 +2,23 @@
 
 It colors your markdown code:
 
-![Color](../master/screenshots/sh_00510.png)
+![Color](images/sh_00510.png)
 
 It creates nice notices:
 
-![Notice](../master/screenshots/sh_00511.png)
+![Notice](images/sh_00511.png)
 
 It marks your keywords:
 
-![Mark my text](../master/screenshots/sh_00512.png)
+![Mark my text](images/sh_00512.png)
 
 Bootstrap alerts:
 
-![Bootstrap alerts](../master/screenshots/sh_00513.png)
+![Bootstrap alerts](images/sh_00513.png)
 
 Bootstrap tables
 
-![Bootstrap tables](../master/screenshots/sh_00514.png)
+![Bootstrap tables](images/sh_00514.png)
 
 And much more...
 
