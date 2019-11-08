@@ -24,11 +24,45 @@ bla bla
 | --- | --- | --- | --- | ---| ---|
 | [alert  | [type="{type}"]  | class="{classes}" | ]  | {content} |  [/alert] |
 
+
 ### Options
 
-| Parameter | Type | Required | Purpose | Values | Default | Sample |
-| --- | --- | --- | --- | ---| ---| ---| 
-| type | string | No | Uses the bootstrap color schemes | alert, danger, info, warning, primary, default | 'info'  | `[alert type="info"]This is an **info** alert[/alert]` |
+#### type
+
+Gives the alert a style according to the bootstrap color standard schemes
+
+###### specification
+|||
+| --- | --- |
+| type | string |
+| required | no |
+| default | "info" |
+
+
+###### values 
+* primary
+* success
+* danger
+* warning
+* info
+
+### class
+
+Additional classes added to the alert
+
+###### specification
+
+|||
+| --- | --- |
+| type | string delimited by ' ' (blank) |
+| required | no |
+| default | blank ('') |
+
+
+###### values
+`class="more than one class"`
+
+
 | class | string | No | additional css classes delimited by ' ' |  | blank  | `[alert class="one two three"]Sample with class[/alert]` |
 
 
