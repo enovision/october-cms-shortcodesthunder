@@ -6,7 +6,7 @@
 
 | Shortcode | Description | Link | Status |
 | --- | --- | --- | --- |
-| Alert | Nice Alerts | [documentation](shortcodes/alert.md) | ![](//img.icons8.com/offices/30/000000/ok.png>) |
+| Alert | Nice Alerts | [documentation](shortcodes/alert.md) | ![](https://img.icons8.com/offices/30/000000/ok.png>) |
 | Align | Creates nice alerts | [documentation](shortcodes/align.md) | OK |
 | BootstrapButton | Creates nice alerts | [documentation](shortcodes/bootstrapbutton.md) | 
 | BootstrapTable | Creates nice alerts | [documentation](shortcodes/bootstraptable.md) |
