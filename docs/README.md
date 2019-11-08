@@ -2,7 +2,7 @@
 
 It colors your markdown code:
 
-![Color](images/sh_00510.png)
+![Color](../images/sh_00510.png)
 
 It creates nice notices:
 
