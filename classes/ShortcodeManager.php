@@ -155,11 +155,7 @@ class ShortcodeManager
         $valid = implode('|', $this->postHandlers->getNames());
         $regex = '/\[\/?(?:' . $valid . ')[^\]]*\]/';
 
-        debug('<pre>', $data->text, '</pre>');
-
         if (preg_match($regex, $data->text, $matches)) {
-
-            debug('johan');
 
             $newText = $this->processContent($data->text, $this->postHandlers);
 

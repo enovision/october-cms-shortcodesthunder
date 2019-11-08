@@ -13,15 +13,6 @@
   color: $default-color;
 }
 
-.sc-notice > div:before {
-  position: absolute;
-  top: $notice-border-top-padding;
-  color: #fff;
-  font-family: FontAwesome;
-  content: '\f06a';
-  left: 10px;
-}
-
 .sc-notice > div:first-child:after {
   position: absolute;
   top: $notice-border-top-padding;
@@ -32,8 +23,12 @@
 .sc-notice .notice-title {
   position: absolute;
   top: $notice-border-top-padding;
-  left: 30px;
+  left: 10px;
   color: #fff;
+}
+
+.sc-notice .notice-title i {
+  padding-right: 10px;
 }
 
 /**
@@ -100,4 +95,9 @@
   background: $info-bg;
   padding-top: $notice-padding-top;
   padding-bottom: $notice-padding-bottom;
+}
+
+/* no border - no title */
+.sc-notice .notice-content.no-border {
+  border-top: none !important;
 }

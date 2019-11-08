@@ -9,14 +9,6 @@
   margin-bottom: 0;
   color: #5b5b5b; }
 
-.sc-notice > div:before {
-  position: absolute;
-  top: 6px;
-  color: #fff;
-  font-family: FontAwesome;
-  content: '\f06a';
-  left: 10px; }
-
 .sc-notice > div:first-child:after {
   position: absolute;
   top: 6px;
@@ -26,8 +18,11 @@
 .sc-notice .notice-title {
   position: absolute;
   top: 6px;
-  left: 30px;
+  left: 10px;
   color: #fff; }
+
+.sc-notice .notice-title i {
+  padding-right: 10px; }
 
 /**
  * default
@@ -82,5 +77,9 @@
   background: #e9f5f5;
   padding-top: 20px;
   padding-bottom: 20px; }
+
+/* no border - no title */
+.sc-notice .notice-content.no-border {
+  border-top: none !important; }
 
 /*# sourceMappingURL=notice.css.map */

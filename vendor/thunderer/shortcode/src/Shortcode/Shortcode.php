@@ -17,6 +17,8 @@ final class Shortcode extends AbstractShortcode implements ShortcodeInterface
             throw new \InvalidArgumentException('Parameter values must be either string or empty (null)!');
         }
 
+      //  debug($parameters);
+
         $this->name = $name;
         $this->parameters = $parameters;
         $this->content = $content;

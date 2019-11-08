@@ -9,6 +9,11 @@ class CodeShortcode extends Shortcode
 {
     protected $postHandler = true;
 
+    private $dependencies = [
+        'php' => 'clike,markup-templating',
+        'sass' => 'css'
+    ];
+
     public function init()
     {
        // $this->shortcode->getHandlers()->add('code', function (ShortcodeInterface $sc) {
@@ -40,7 +45,13 @@ class CodeShortcode extends Shortcode
             $lineNumberClass = $linenumbers !== null ? 'line-numbers' : '';
             $languageClass = "language-{$lang}";
 
-            $replace = "<pre {$heightHtml} class=\"{$lineNumberClass} $languageClass\" {$dataStart} {$dataHilite}>";
+            $dependencies = '';
+
+            if (array_key_exists(strtolower($lang), $this->dependencies)) {
+                $dependencies = 'data-dependencies="' . $this->dependencies[strtolower($lang)] . '"';
+            }
+
+            $replace = "<pre {$heightHtml} class=\"{$lineNumberClass} $languageClass\" {$dataStart} {$dataHilite} {$dependencies}>";
 
             $newContent = str_replace($search, $replace, $content, $times);
 
